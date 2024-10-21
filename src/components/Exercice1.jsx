@@ -2,7 +2,7 @@ import { useState } from "react";
 import Exercice from "./container/Exercice";
 
 export default function Exercice1() {
-	const [count, setCount] = useState(10);
+	const [count, setCount] = useState(0);
 	return (
 		<Exercice>
 			<h2>Exercice 1 : Compteur simple</h2>
